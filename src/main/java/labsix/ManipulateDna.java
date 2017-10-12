@@ -43,7 +43,7 @@ public class ManipulateDna {
     String dnaadd = (addition + "" + dnac);
     System.out.println("Inserting " + addition + " at position 0 gives "
         + dnaadd); 
-    // Step Four: Delete a DNA letter from a randomly chosen position in the DNA string
+    // Delete a DNA letter from a randomly chosen position in the DNA string
     int replacedef = randomgen.nextInt(4);
     char removable = dnaadd.charAt(replacedef);
     // Test: String dnasub = dnaadd.replace(removable, 'P');

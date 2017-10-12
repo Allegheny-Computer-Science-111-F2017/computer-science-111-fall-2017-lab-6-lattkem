@@ -11,4 +11,4 @@ inclusive of their end index, which made this an easy solution.
 Using string length in my next iteration of the program will be easily
 replacable, and result in the program likely containing no static int values. I
 could also use the scanner method with a prompt, which I find more fun to test
-a program with than from an input file.
+a program with than from a static input file.
